@@ -17,44 +17,147 @@
         <img id="logo" src="./images/logo.png" alt="logo" />
     </header>  
     <div class="bloque1">
-    <nav class="navegacion">
-        <a href="./index.html" target="_self">
-            <div class="cajaboton">
-             <p class="boton">Inicio</p>
-            </div>
-        </a>
-        <a href="./registro.html" target="_self">
-            <div class="cajaboton">
-                <p class="boton">Registro</p>
-            </div>
-        </a>
-        <a href="./howto.html" target="_self">
-            <div class="cajaboton">
-                <p class="boton">¿Cómo se juega?</p>
-            </div>
-        </a>
-        <a href="./clases.html" target="_self">
-            <div class="cajaboton">
-                <p class="boton">Clases</p>
-            </div>
-        </a>
-        <a href="./media.html" target="_self">
-            <div class="cajaboton">
-              <p class="boton">Media</p>
-            </div>
-        </a>
-    </nav>
-    <section>
-        <article>
-            <div class="contenidoart">
-                <h2 class = "textomain">Tarea flex, formularios y navegación entre páginas.</h2>
-            <br />
-                <p class = "textomain">
-                    Realizado para la entrega del día 20/11/2022.
-                </p>
-            </div>
-        </article>
-    </section>
+        <nav class="navegacion">
+            <a href="./index.html" target="_self">
+                <div class="cajaboton">
+                <p class="boton">Inicio</p>
+                </div>
+            </a>
+            <a href="./registro.html" target="_self">
+                <div class="cajaboton">
+                    <p class="boton">Registro</p>
+                </div>
+            </a>
+            <a href="./howto.html" target="_self">
+                <div class="cajaboton">
+                    <p class="boton">¿Cómo se juega?</p>
+                </div>
+            </a>
+            <a href="./clases.html" target="_self">
+                <div class="cajaboton">
+                    <p class="boton">Clases</p>
+                </div>
+            </a>
+            <a href="./media.html" target="_self">
+                <div class="cajaboton">
+                <p class="boton">Media</p>
+                </div>
+            </a>
+        </nav>
+        <section>
+            <article>
+                <div class="contenidoart">
+                    <form  action="/proximamente.php" target="_blank" method="post">
+                        <fieldset>
+                            <legend><b>¡Únete a la comunidad!</b></legend>
+                            <div class="camposform">
+                                <label for="nombre">Usuario:</label><br />
+                                <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" id="usuario" name="usuario" value="usuario" size="15"><br />
+                                <label for="contraseña">Contraseña:</label><br />
+                                <input type="password" onkeydown="return /[a-zA-Z0-9#-_.]/i.test(event.key)" id="contraseña" name="contraseña" value="contraseña" size="20"><br />
+                                <label for="email">E-mail</label><br />
+                                <input type="email" onkeydown="return /[a-z@.A_-Z0-9]/i.test(event.key)" id="email" name="email" value="youremail@domain.com" size="20"><br />
+                            </div>
+                            <div class="scroll">
+                                <p class="privacytext">
+                                    Protección de datos de carácter personal según la LOPDDD<br />D&D Evolution, en aplicación de la normativa vigente en materia de protección de datos de carácter personal, informa que los datos personales que se recogen a través de los formularios del Sitio web:goldbergcode.github.io, se incluyen en los ficheros automatizados específicos de usuarios de los servicios de D&D Evolution<br />La recogida y tratamiento automatizado de los datos de carácter personal tiene como finalidad el mantenimiento de la relación comercial y el desempeño de tareas de información, formación, asesoramiento y otras actividades propias de D&D Evolution<br />Estos datos únicamente serán cedidos a aquellas entidades que sean necesarias con el único objetivo de dar cumplimiento a la finalidad anteriormente expuesta.<br />D&D Evolution adopta las medidas necesarias para garantizar la seguridad, integridad y confidencialidad de los datos conforme a lo dispuesto en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de los mismos.<br />El usuario podrá en cualquier momento ejercitar los derechos de acceso, oposición, rectificación y cancelación reconocidos en el citado Reglamento (UE). El ejercicio de estos derechos puede realizarlo el propio usuario a través de email a: a_sergiojose.vertedor.beltran@iespablopicasso.es<br />El usuario manifiesta que todos los datos facilitados por él son ciertos y correctos, y se compromete a mantenerlos a ctualizados, comunicando los cambios a a_sergiojose.vertedor.beltran@iespablopicasso.es<br />Finalidad del tratamiento de los datos personales:<br />¿Con qué finalidad trataremos tus datos personales?<br />En D&D Evolution, trataremos tus datos personales recabados a través del Sitio Web: goldbergcode.github.io, con las siguientes finalidades:<br />En caso de contratación de los bienes y servicios ofertados a través de D&D Evolution para mantener la relación contractual, así como la gestión, administración, información, prestación y mejora del servicio.<br />Envío de información solicitada a través de los formularios dispuestos en D&D Evolution<br />Remitir boletines (newsletters), así como comunicaciones comerciales de promociones y/o publicidad de D&D Evolution y del sector.                         <br />
+                                    Te recordamos que puedes oponerte al envío de comunicaciones comerciales por cualquier vía y en cualquier momento, remitiendo un correo electrónico a la dirección indicada anteriormente.
+                                    <br />
+                                    Los campos de dichos registros son de cumplimentación obligatoria, siendo imposible realizar las finalidades expresadas si no se aportan esos datos.<br />
+                                    ¿Por cuánto tiempo se conservan los datos personales recabados?
+                                    <br />
+                                    Los datos personales proporcionados se conservarán mientras se mantenga la relación comercial o no solicites su supresión y durante el plazo por el cuál pudieran derivarse responsabilidades legales por los servicios prestados.<br />
+                                    Legitimación:
+                                    <br />
+                                    El tratamiento de tus datos se realiza con las siguientes bases jurídicas que legitiman el mismo:
+                                    <br />
+                                        La solicitud de información y/o la contratación de los servicios de D&D Evolution, cuyos términos y condiciones se pondrán a tu disposición en todo caso, de forma previa a una eventual contratación.<br />
+                                        El consentimiento libre, específico, informado e inequívoco, en tanto que te informamos poniendo a tu disposición la presente política de privacidad, que tras la lectura de la misma, en caso de estar conforme, puedes aceptar mediante una declaración o una clara acción afirmativa, como el marcado de una casilla dispuesta al efecto.
+                                    <br />
+                                    En caso de que no nos facilites tus datos o lo hagas de forma errónea o incompleta, no podremos atender tu solicitud, resultando del todo imposible proporcionarte la información solicitada o llevar a cabo la contratación de los servicios.
+                                    Destinatarios:
+                                    <br />
+                                    Los datos no se comunicarán a ningún tercero ajeno a D&D Evolution, salvo obligación legal.
+                                    <br />
+                                    D&D Evolution somos encargados de tratamiento y comprometidos al cumplimiento de las disposiciones normativas, de aplicación en materia de protección de datos, en el momento de su contratación.<br />
+                                    Datos recopilados por usuarios de los servicios
+                                    <br />
+                                    En los casos en que el usuario incluya ficheros con datos de carácter personal en los servidores de alojamiento compartido, D&D Evolution no se hace responsable del incumplimiento por parte del usuario del RGPD.<br />
+                                    Retención de datos en conformidad a la LSSI
+                                    <br />
+                                    D&D Evolution informa de que, como prestador de servicio de alojamiento de datos y en virtud de lo establecido en la Ley 34/2002 de 11 de julio de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI), retiene por un periodo máximo de 12 meses la información imprescindible para identificar el origen de los datos alojados y el momento en que se inició la prestación del servicio. La retención de estos datos no afecta al secreto de las comunicaciones y sólo podrán ser utilizados en el marco de una investigación criminal o para la salvaguardia de la seguridad pública, poniéndose a disposición de los jueces y/o tribunales o del Ministerio que así los requiera.
+                                    <br />
+                                    La comunicación de datos a las Fuerzas y Cuerpos del Estado se hará en virtud a lo dispuesto en la normativa sobre protección de datos personales.<br />
+                                    Derechos propiedad intelectual D&D Evolution
+                                    <br />
+                                    D&D Evolution es titular de todos los derechos de autor, propiedad intelectual, industrial, “know how” y cuantos otros derechos guardan relación con los contenidos del sitio web goldbergcode.github.io y los servicios ofertados en el mismo, así como de los programas necesarios para su implementación y la información relacionada.
+                                    <br />
+                                    No se permite la reproducción, publicación y/o uso no estrictamente privado de los contenidos, totales o parciales, del sitio web goldbergcode.github.io sin el consentimiento previo y por escrito.<br />
+                                    Propiedad intelectual del software
+                                    <br />
+                                    El usuario debe respetar los programas de terceros puestos a su disposición por D&D Evolution, aun siendo gratuitos y/o de disposición pública.
+                                    <br />
+                                    D&D Evolution dispone de los derechos de explotación y propiedad intelectual necesarios del software.
+                                    <br />
+                                    El usuario no adquiere derecho alguno o licencia por el servicio contratado, sobre el software necesario para la prestación del servicio, ni tampoco sobre la información técnica de seguimiento del servicio, excepción hecha de los derechos y licencias necesarios para el cumplimiento de los servicios contratados y únicamente durante la duración de los mismos.
+                                    <br />
+                                    Para toda actuación que exceda del cumplimiento del contrato, el usuario necesitará autorización por escrito por parte de D&D Evolution, quedando prohibido al usuario acceder, modificar, visualizar la configuración, estructura y ficheros de los servidores propiedad de D&D Evolution, asumiendo la responsabilidad civil y penal derivada de cualquier incidencia que se pudiera producir en los servidores y sistemas de seguridad como consecuencia directa de una actuación negligente o maliciosa por su parte.<br />
+                                    Propiedad intelectual de los contenidos alojados
+                                    <br />
+                                    Se prohíbe el uso contrario a la legislación sobre propiedad intelectual de los servicios prestados por D&D Evolution y, en particular de:
+                                    <br />
+                                        La utilización que resulte contraria a las leyes españolas o que infrinja los derechos de terceros.<br />
+                                        La publicación o la transmisión de cualquier contenido que, a juicio de D&D Evolution, resulte violento, obsceno, abusivo, ilegal, racial, xenófobo o difamatorio.<br />
+                                        Los cracks, números de serie de programas o cualquier otro contenido que vulnere derechos de la propiedad intelectual de terceros.<br />
+                                        La recogida y/o utilización de datos personales de otros usuarios sin su consentimiento expreso o contraviniendo lo dispuesto en Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de los mismos.<br />
+                                        La utilización del servidor de correo del dominio y de las direcciones de correo electrónico para el envío de correo masivo no deseado.<br />
+                                    <br />
+                                    El usuario tiene toda la responsabilidad sobre el contenido de su web, la información transmitida y almacenada, los enlaces de hipertexto, las reivindicaciones de terceros y las acciones legales en referencia a propiedad intelectual,<br />
+                                    Derechos de terceros y protección de menores.
+                                    <br />
+                                    El usuario es responsable respecto a las leyes y reglamentos en vigor y las reglas que tienen que ver con el funcionamiento del servicio online, comercio electrónico, derechos de autor, mantenimiento del orden público, así como principios universales de uso de Internet.
+                                    <br />
+                                    El usuario indemnizará a D&D Evolution por los gastos que generara la imputación de D&D Evolution en alguna causa cuya responsabilidad fuera atribuible al usuario, incluidos honorarios y gastos de defensa jurídica, incluso en el caso de una decisión judicial no definitiva.<br />
+                                    Protección de la información alojada
+                                    <br />
+                                    D&D Evolution realiza copias de seguridad de los contenidos alojados en sus servidores, sin embargo no se responsabiliza de la pérdida o el borrado accidental de los datos por parte de los usuarios. De igual manera, no garantiza la reposición total de los datos borrados por los usuarios, ya que los citados datos podrían haber sido suprimidos y/o modificados durante el periodo del tiempo transcurrido desde la última copia de seguridad.
+                                    <br />
+                                    Los servicios ofertados, excepto los servicios específicos de backup, no incluyen la reposición de los contenidos conservados en las copias de seguridad realizadas por D&D Evolution, cuando esta pérdida sea imputable al usuario; en este caso, se determinará una tarifa acorde a la complejidad y volumen de la recuperación, siempre previa aceptación del usuario.
+                                    <br />
+                                    La reposición de datos borrados sólo está incluida en el precio del servicio cuando la pérdida del contenido sea debida a causas atribuibles a D&D Evolution.<br />
+                                    Comunicaciones comerciales
+                                    <br />
+                                    En aplicación de la LSSI. D&D Evolution no enviará comunicaciones publicitarias o promocionales por correo electrónico u otro medio de comunicación electrónica equivalente que previamente no hubieran sido solicitadas o expresamente autorizadas por los destinatarios de las mismas.
+                                    <br />
+                                    En el caso de usuarios con los que exista una relación contractual previa, D&D Evolution sí está autorizado al envío de comunicaciones comerciales referentes a productos o servicios de D&D Evolution que sean similares a los que inicialmente fueron objeto de contratación con el cliente.
+                                    <br />
+                                    En todo caso, el usuario, tras acreditar su identidad, podrá solicitar que no se le haga llegar más información comercial a través de los canales de Atención al Cliente.
+                                    </p>
+                                <br />
+                               
+                               
+                            </div>
+                            <br />
+                            <div class="acepto">
+                                <input type="checkbox" id="acepto" name="acepto" value="true">
+                                <label for="acepto"> Acepto los terminos de privacidad.</label>
+                            </div>
+                            <div class="acepto">
+                                <input class="submitbutn1" type="submit" value="Entrar">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="articleright">
+                <h2 class = "texto">
+                    ¡Nuestro punto de reuniones!
+                </h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19169.404424670924!2d-4.449234244676658!3d36.71029492621749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f79c5c7b9041%3A0xfe50d538b8aa84f4!2sComic%20Stores%20(M%C3%A1laga%20Tilos)!5e0!3m2!1ses!2ses!4v1669998603486!5m2!1ses!2ses" width="250" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
     </div>
     <footer>
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Esta obra está bajo una &#160<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">licencia de Creative Commons Reconocimiento 4.0 Internacional</a>.

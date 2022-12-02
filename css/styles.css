@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
 }
+
 body {
    background-color: #b0b0b0;
    display:flex;
@@ -24,6 +25,7 @@ body {
    justify-content:space-between;
    
 }
+
 #titulo {
    font-size: 3vw;
    margin-left: 5vw;
@@ -31,6 +33,7 @@ body {
    text-align: center;
    color: #D7263D;
 }
+
 #logo {
    display: flex;
    flex-direction: column;
@@ -46,6 +49,7 @@ body {
    width: 100vw;
    
 }
+
 .navegacion {
    margin-left: 2px;
    margin-top: 1vh;
@@ -53,6 +57,7 @@ body {
    flex-direction: column;
    
 }
+
 .cajaboton {
    display:flex;
    flex-direction: column;
@@ -73,15 +78,18 @@ body {
    margin-top: 1px;
    text-align: center;
 }
+
 .cajaboton:hover {
    background-color: #C2AFF0;
 }
+
 section {
    margin-top: 1vh;
    background-color: #C9CEBD;
    border: 1px solid;
    border-radius: 5px;
 }
+
 .spotify {
    height: 45vh;
 }
@@ -94,11 +102,13 @@ section {
    height: 50vh;
 
 }
+
 .contenidoart {
    margin-left: 3vw;
    margin-right: 3vw;
    width: 62vw;
 }
+
 .contenidoartmedia{
    width: 62vw;
    display: flex;
@@ -118,13 +128,28 @@ section {
 
 }
 
+.scroll {
+   background-color: #fed9ff;
+   width: 60vw;
+   height: 20vh;
+   overflow-x: hidden;
+   overflow-y: auto;
+   text-align: center;
+   padding: 20px;
+   margin-top: 1.5vh;
+}
+
+.privacytext {
+   text-align:justify;
+}
+
 .thumbnail{
    position: relative;
    z-index: 0;
    height: 10vh;
    }
    
-   .thumbnail:hover{
+.thumbnail:hover{
    background-color: transparent;
    z-index: 50;
    }
@@ -148,8 +173,6 @@ section {
    visibility: visible;
    top: -50;
    left: 0; 
-   
-   
    }
 
 .textomain {
@@ -165,6 +188,20 @@ section {
    border-radius: 5px;
    border-color: black;
 }
+.camposform {
+   margin-left: 2vw;
+   margin-top: 3vh;
+   margin-bottom: 3vh;
+}
+
+.acepto{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 1vh;
+   margin-bottom: 1vh;
+}
 .texto {
    margin-top: 2vh;
    font-family: 'Sono', sans-serif;
@@ -173,6 +210,7 @@ section {
    padding-left: 1vw;
    padding-right: 1vw;
 }
+
 .textoimg {
    font-family: 'Sono', sans-serif;
    font-size: 16px;
@@ -193,7 +231,6 @@ footer {
    flex-direction: row;
    width:90vw;
 }
-
 
 iframe {
    padding-top: 1vh; 
