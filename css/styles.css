@@ -86,54 +86,7 @@ section {
   overflow-y: auto;
   text-align: center;
 }
-.imagenessect {
-   display:flex;
-   justify-content:space-around;
-   flex-direction: row;
-}
-.mask{
-   -webkit-mask-image: linear-gradient(black, transparent);
-   mask-image: linear-gradient(black, transparent);   
-   display:flex;
-   justify-content:space-around;
-   flex-direction: row;
-}
 
-.imagenessectin1 {
-   margin-bottom: 5vh;
-}
-.imagenessectin2 {
-   margin-bottom: 5vh;
-}
-.imagenessectin2:hover {
-
-   transform: skewY(-20deg);
-}
-
-
-.form2 {
-   width: 30vw;
-}
-
-@keyframes example {
-   0%   {background-color:red; left:0px; top:0px;}
-   25%  {background-color:yellow; left:200px; top:0px;}
-   50%  {background-color:blue; left:200px; top:200px;}
-   75%  {background-color:green; left:0px; top:200px;}
-   100% {background-color:red; left:0px; top:0px;}
- }
-
-.imagenessectin3 {
-   margin-bottom: 5vh;
-   background-color: red;
-   position: relative;
-   animation-name: example;
-   animation-duration: 4s;
-   animation-delay: 2s;
-}
-.imagenessectin4 {
-   margin-bottom: 5vh;
-}
 .textomain {
    font-family: 'Sono', sans-serif;
    font-size: 16px;
@@ -145,73 +98,6 @@ section {
    border: 1px solid;
    border-radius: 5px;
    border-color: black;
-}
-.formulariossect {
-   font-family: 'Sono', sans-serif;
-   display:flex;
-   flex-direction: row;
-   justify-content: space-around;
-   margin-bottom: 4vh;
-}
-.formulariossect2 {
-   font-family: 'Sono', sans-serif;
-   display:flex;
-   flex-direction: row;
-   justify-content:space-around;
-}
-
-legend {
-   margin-bottom: 3vh;
-}
-
-input {
-   margin-left: 3vw;
-}
-
-.form1 {
-   margin-left: 3vw;
-}
-
-.form2 {
-   margin-top: 5vh;
-   margin-right: 21vw;
-   width: 15vw;
-}
-
-.form4 {
-   margin-right: 8vw;
-}
-.fs1 {
-   width: 15vw;
-}
-.fs2 {
-   width: 29vw;
-   height: 23vh;
-}
-.fs3 {
-   width:  18vw;
-}
-
-
-label {
-   font-size: 14px;
-}
-.submitbutn1 {
-   margin-bottom: 0.5vw;
-   margin-left: 5vw;
-}
-.submitbutn2 {
-   margin-left: 10vw;
-   margin-bottom: 0.5vw;
-}
-
-.submitbutn3 {
-   margin-left: 8vw;
-   margin-bottom: 0.5vw;
-}
-.submitbutn4 {
-   margin-left: 11vw;
-   margin-bottom: 0.5vw;
 }
 
 h2 {
