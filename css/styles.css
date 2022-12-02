@@ -1,0 +1,268 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color: #b0b0b0;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.cabecera {
+   border: 1px solid;
+   border-color: black;
+   background-color: #02182B;
+   padding-left: 1vw;
+   padding-right: 1vw;
+   padding-top: 1vh;
+   padding-bottom: 1vh;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   
+}
+#titulo {
+   font-size: 3vw;
+   margin-left: 5vw;
+   font-family: 'Kanit', sans-serif;
+   text-align: center;
+   color: #D7263D;
+}
+#logo {
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+}
+.bloque1 {
+   background-color: #B2BCAA;
+   display:flex;
+   justify-content:space-between;
+   flex-direction: row;
+   width: 100vw;
+   
+}
+.navegacion {
+   margin-left: 2px;
+   margin-top: 1vh;
+   display: flex;
+   flex-direction: column;
+   width: 15vw;
+   
+}
+
+.boton{
+   font-weight: bold;
+   width: 15vw;
+   font-family: 'Marhey', cursive;
+   margin-top: 1px;
+   margin-left: 2vw;
+   border: 1px solid;
+   border-radius: 5px;
+   border-color: black;
+   align-content: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+   background-color: #C9CEBD;
+}
+.boton:hover {
+   background-color: #C2AFF0;
+}
+section {
+   margin-top: 1vh;
+   margin-right: 3vw;
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+   background-color: #C9CEBD;
+   border: 1px solid;
+   border-radius: 5px;
+   width: 77vw;
+}
+.scroll{
+   overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.imagenessect {
+   display:flex;
+   justify-content:space-around;
+   flex-direction: row;
+}
+.mask{
+   -webkit-mask-image: linear-gradient(black, transparent);
+   mask-image: linear-gradient(black, transparent);   
+   display:flex;
+   justify-content:space-around;
+   flex-direction: row;
+}
+
+.imagenessectin1 {
+   margin-bottom: 5vh;
+}
+.imagenessectin2 {
+   margin-bottom: 5vh;
+}
+.imagenessectin2:hover {
+
+   transform: skewY(-20deg);
+}
+
+
+.form2 {
+   width: 30vw;
+}
+
+@keyframes example {
+   0%   {background-color:red; left:0px; top:0px;}
+   25%  {background-color:yellow; left:200px; top:0px;}
+   50%  {background-color:blue; left:200px; top:200px;}
+   75%  {background-color:green; left:0px; top:200px;}
+   100% {background-color:red; left:0px; top:0px;}
+ }
+
+.imagenessectin3 {
+   margin-bottom: 5vh;
+   background-color: red;
+   position: relative;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-delay: 2s;
+}
+.imagenessectin4 {
+   margin-bottom: 5vh;
+}
+.textomain {
+   font-family: 'Sono', sans-serif;
+   font-size: 16px;
+   text-justify: auto;
+   padding-bottom: 1vw;
+   padding-left: 1vw;
+   padding-right: 1vw;
+   padding-top: 1vw;
+   border: 1px solid;
+   border-radius: 5px;
+   border-color: black;
+}
+.formulariossect {
+   font-family: 'Sono', sans-serif;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-bottom: 4vh;
+}
+.formulariossect2 {
+   font-family: 'Sono', sans-serif;
+   display:flex;
+   flex-direction: row;
+   justify-content:space-around;
+}
+
+legend {
+   margin-bottom: 3vh;
+}
+
+input {
+   margin-left: 3vw;
+}
+
+.form1 {
+   margin-left: 3vw;
+}
+
+.form2 {
+   margin-top: 5vh;
+   margin-right: 21vw;
+   width: 15vw;
+}
+
+.form4 {
+   margin-right: 8vw;
+}
+.fs1 {
+   width: 15vw;
+}
+.fs2 {
+   width: 29vw;
+   height: 23vh;
+}
+.fs3 {
+   width:  18vw;
+}
+
+
+label {
+   font-size: 14px;
+}
+.submitbutn1 {
+   margin-bottom: 0.5vw;
+   margin-left: 5vw;
+}
+.submitbutn2 {
+   margin-left: 10vw;
+   margin-bottom: 0.5vw;
+}
+
+.submitbutn3 {
+   margin-left: 8vw;
+   margin-bottom: 0.5vw;
+}
+.submitbutn4 {
+   margin-left: 11vw;
+   margin-bottom: 0.5vw;
+}
+
+h2 {
+   font-size: 20px;
+}
+
+footer {
+   margin-top: 20px;
+   display:flex;
+   justify-content:center;
+   flex-direction: row;
+   width:90vw;
+}
+
+.imgart {
+   margin-top: 5px;
+   width: 30vh;
+}
+.divimgart {
+   display: flex;
+   align-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.contenidoart {
+   margin-left: 3vw;
+   margin-right: 3vw;
+}
+
+a:link {
+   color: black;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+a:visited {
+   color: black;
+   background-color: transparent;
+   text-decoration: none;
+}
+   
+a:hover {
+   color: black;
+   background-color: transparent;
+   text-decoration: none;
+}
+   
+a:active {
+   color: black;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+
