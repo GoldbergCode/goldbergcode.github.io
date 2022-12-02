@@ -36,10 +36,12 @@ body {
    flex-direction: column;
    width: 30%;
 }
+
+
 .bloque1 {
    background-color: #B2BCAA;
    display:flex;
-   justify-content:space-between;
+   justify-content:space-around;
    flex-direction: row;
    width: 100vw;
    
@@ -49,45 +51,51 @@ body {
    margin-top: 1vh;
    display: flex;
    flex-direction: column;
-   width: 15vw;
    
+}
+.cajaboton {
+   display:flex;
+   flex-direction: column;
+   margin-top: 0.5vh;
+   width: 10vw;
+   background-color: #C9CEBD;
+   border: 1px solid;
+   border-radius: 5px;
+   border-color: black;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   align-content: center;
 }
 
 .boton{
    font-weight: bold;
-   width: 15vw;
    font-family: 'Marhey', cursive;
    margin-top: 1px;
-   margin-left: 2vw;
-   border: 1px solid;
-   border-radius: 5px;
-   border-color: black;
-   align-content: center;
-   padding-top: 5px;
-   padding-bottom: 5px;
    text-align: center;
-   background-color: #C9CEBD;
 }
-.boton:hover {
+.cajaboton:hover {
    background-color: #C2AFF0;
 }
 section {
    margin-top: 1vh;
-   margin-right: 3vw;
-   padding-top: 5vh;
-   padding-bottom: 5vh;
    background-color: #C9CEBD;
    border: 1px solid;
    border-radius: 5px;
-   width: 77vw;
-}
-.scroll{
-   overflow-x: hidden;
-  overflow-y: auto;
-  text-align: center;
 }
 
+.articleright {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.contenidoart {
+   margin-left: 3vw;
+   margin-right: 3vw;
+   width: 62vw;
+}
 .textomain {
+   margin-top: 2vh;
    font-family: 'Sono', sans-serif;
    font-size: 16px;
    text-justify: auto;
@@ -98,6 +106,14 @@ section {
    border: 1px solid;
    border-radius: 5px;
    border-color: black;
+}
+.texto {
+   margin-top: 2vh;
+   font-family: 'Sono', sans-serif;
+   font-size: 16px;
+   text-justify: auto;
+   padding-left: 1vw;
+   padding-right: 1vw;
 }
 
 h2 {
@@ -112,19 +128,12 @@ footer {
    width:90vw;
 }
 
-.imgart {
-   margin-top: 5px;
-   width: 30vh;
-}
-.divimgart {
-   display: flex;
-   align-content: center;
-   align-items: center;
-   flex-direction: column;
-}
-.contenidoart {
-   margin-left: 3vw;
-   margin-right: 3vw;
+
+iframe {
+   padding-top: 1vh; 
+   padding-bottom: 1vh;
+   padding-right: 1vw;
+   padding-left: 1vw;
 }
 
 a:link {
