@@ -82,12 +82,17 @@ section {
    border: 1px solid;
    border-radius: 5px;
 }
+.spotify {
+   height: 45vh;
+}
 
 .articleright {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   height: 50vh;
+
 }
 .contenidoart {
    margin-left: 3vw;
@@ -124,7 +129,7 @@ section {
    z-index: 50;
    }
    
-   .thumbnail span{ /*CSS for enlarged image*/
+   .thumbnail span{ /*CSS para la imagen agrandada */
    position:absolute;
    padding: 5px;
    border: 1px black;
@@ -133,16 +138,16 @@ section {
    text-decoration: none;
    }
    
-   .thumbnail span img{ /*CSS for enlarged image*/
+   .thumbnail span img{ /*CSS para la imagen agrandada */
    border-width: 0;
    padding: 2px;
    width: 30vw;
    }
    
-   .thumbnail:hover span{ /*CSS for enlarged image on hover*/
+   .thumbnail:hover span{ /*CSS para la imagen agrandada en hover*/
    visibility: visible;
    top: -50;
-   left: 0; /*position where enlarged image should offset horizontally */
+   left: 0; 
    
    
    }
