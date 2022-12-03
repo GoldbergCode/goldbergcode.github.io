@@ -25,36 +25,6 @@ body {
    
 }
 
-table {
-border:1px solid black;
-width: 90%;
-margin:5%;
-border-spacing: 0ch;
-}
-
-tr td{
-   border:1px solid black;
-   padding-left:5pt;
-   height: 50px;
-}
-
-th.titulillotabla{
-   height: 35pt;
-   padding: 5pt;
-   background-color: rgb(51, 51, 51);
-   color:#c93c4f;
-   font-size: 4ch;
-   text-transform: uppercase;
-   letter-spacing: 2ch;
-   }
-
-   .subtitulillo td{
-  background-color: #af402d;
-  height: 25pt;
-  text-align: center;
-   }
-
-
 #titulo {
    font-size: 3vw;
    margin-left: 5vw;
@@ -161,12 +131,43 @@ th.titulillotabla{
    width: 62vw;
 }
 
-.clasesnav {
-   display:flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   padding-top: 1vh;
+table {
+   border:1px solid black;
+   width: 90%;
+   margin:5%;
+   border-spacing: 0ch;
+   font-family: 'Marhey', cursive;
+   }
+   
+tr td {
+      border:1px solid black;
+      padding-top: 0.5vh;
+      height: 5vh;
+      text-align: center;
+}
+   
+th.titulillotabla {
+      height: 35pt;
+      padding: 5pt;
+      background-color: rgb(51, 51, 51);
+      color:#c93c4f;
+      font-size: 4ch;
+      text-transform: uppercase;
+      letter-spacing: 2ch;
+   }
+   
+.subtitulillo td {
+     background-color: #af402d;
+     height: 25pt;
+     text-align: center;
+}
+
+.infoclase {
+   text-align: justify;
+   padding-left: 1vw;
+   padding-right: 1vw;
+   padding-bottom: 0.5vh;
+   width: 30vw;
 }
 
 .formflex {
@@ -361,6 +362,7 @@ footer {
 }
 
 iframe {
+   display: flex;
    padding-top: 1vh; 
    padding-bottom: 1vh;
    padding-right: 1vw;

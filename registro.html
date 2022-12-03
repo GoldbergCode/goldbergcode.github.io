@@ -52,36 +52,52 @@
                             <legend>
                                 <b>¡Únete a la comunidad!</b>
                             </legend>
-                                <div class="camposform">
-                                    <label for="nombre">Usuario:</label><br />
-                                    <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" id="usuario" name="usuario" value="usuario" size="15"><br />
-                                    <label for="contraseña">Contraseña:</label><br />
-                                    <input type="password" onkeydown="return /[a-zA-Z0-9#-_.]/i.test(event.key)" id="contraseña" name="contraseña" value="contraseña" size="20"><br />
-                                    <br />
-                                    <p>Sexo:</p>
-                                    <input type="radio" id="hombre" name="sexo" value="hombre">
-                                    <label for="html">Hombre</label>
-                                    <br />
-                                    <input type="radio" id="mujer" name="sexo" value="mujer">
-                                    <label for="html">Mujer</label>
-                                    <br />
-                                    <input type="radio" id="html" name="sexo" value="HTML">
-                                    <label for="html">Otro</label>
-                                    <br />
-                                    <br />
-                                    <label for="fechanac">Fecha de Nacimiento:</label>
-                                    <br />
-                                    <input type="date" onkeydown="return /[0-9/-]/i.test(event.key)" id="fechanac" name="fechanac" min="1940-01-01" ><br />
-                                    <br />
-                                    <label for="colorperfil">Elige el color de perfil que prefieras:</label>
-                                    <br />
-                                    <input type="color" id="colorperfil" name="colorperfil">
-                                    <br />
-                                    <br />
-                                    <label for="email">E-mail</label>
-                                    <br />
-                                    <input type="email" onkeydown="return /[a-z@.A_-Z0-9]/i.test(event.key)" id="email" name="email" value="tuemail@dominio.com" size="20"><br />
-                                    
+                                <div class="formflex">
+                                    <div class="camposform">
+                                        <label for="nombre">Usuario:</label><br />
+                                        <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" id="usuario" name="usuario" value="usuario" size="15"><br />
+                                        <label for="contraseña">Contraseña:</label><br />
+                                        <input type="password" onkeydown="return /[a-zA-Z0-9#-_.]/i.test(event.key)" id="contraseña" name="contraseña" value="contraseña" size="20"><br />
+                                        <br />
+                                        <p>Sexo:</p>
+                                        <input type="radio" id="hombre" name="sexo" value="hombre">
+                                        <label for="html">Hombre</label>
+                                        <br />
+                                        <input type="radio" id="mujer" name="sexo" value="mujer">
+                                        <label for="html">Mujer</label>
+                                        <br />
+                                        <input type="radio" id="html" name="sexo" value="HTML">
+                                        <label for="html">Otro</label>
+                                        <br />
+                                        <br />
+                                        <label for="fechanac">Fecha de Nacimiento:</label>
+                                        <br />
+                                        <input type="date" onkeydown="return /[0-9/-]/i.test(event.key)" id="fechanac" name="fechanac" min="1940-01-01" ><br />
+                                        <br />
+                                        <label for="colorperfil">Elige el color de perfil que prefieras:</label>
+                                        <br />
+                                        <input type="color" id="colorperfil" name="colorperfil">
+                                        <br />
+                                        <br />
+                                        <p>¿Qué edición de D&D prefieres jugar?</p>
+                                        <br />
+                                        <select name="edicion">
+                                            <option value="35">Otra</option>
+                                            <option value="35">3ª</option>
+                                            <option value="35">3.5ª</option>
+                                            <option value="35">4ª</option>
+                                            <option value="5">5ª</option>
+                                        </select>
+                                        <br />
+                                        <br />
+                                        <label for="email">E-mail</label>
+                                        <br />
+                                        <input type="email" onkeydown="return /[a-z@.A_-Z0-9]/i.test(event.key)" id="email" name="email" value="tuemail@dominio.com" size="20"><br />
+                                        
+                                    </div>
+                                    <div>
+                                        <img class="formimg" src="./images/registro.jpg" />
+                                    </div>
                                 </div>
                                 <div class="scrollcenter">
                                     <div class="scroll">
@@ -175,6 +191,7 @@
                                 </div>
                         </fieldset>
                     </form>
+                    
                 </div>
             </article>
         </section>
