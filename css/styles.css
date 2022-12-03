@@ -51,7 +51,6 @@ body {
 }
 
 .navegacion {
-   margin-left: 2px;
    margin-top: 1vh;
    display: flex;
    flex-direction: column;
@@ -83,29 +82,37 @@ body {
    background-color: #C2AFF0;
 }
 
-section {
+.sectionppal {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 1vh;
+   background-color: #C9CEBD;
+   border: 1px solid;
+   border-radius: 5px;
+   width: 65vw;
+   
+}
+
+
+
+.sectionright {
+   height: 45vh;
    margin-top: 1vh;
    background-color: #C9CEBD;
    border: 1px solid;
    border-radius: 5px;
 }
-
-.spotify {
-   height: 45vh;
-}
-
-.articleright {
+.artright {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   height: 50vh;
-
 }
 
 .contenidoart {
-   margin-left: 3vw;
-   margin-right: 3vw;
+   padding-left: 3vw;
+   padding-right: 5vw;
    width: 62vw;
 }
 
@@ -114,31 +121,32 @@ section {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: center;
+   justify-content:space-around
 }
 
 .contenidoartimg {
    border: 1px solid;
    border-radius: 5px;
    border-color: black;
-   margin-right: 6vw;
-   margin-left: 6vw;
    margin-top: 6vh;
    margin-bottom: 6vh;
 
 }
 
 .scroll {
-   background-color: #fed9ff;
-   width: 60vw;
+   background-color: #d4d1d4;
+   width: 50vw;
    height: 20vh;
    overflow-x: hidden;
    overflow-y: auto;
    text-align: center;
-   padding: 20px;
    margin-top: 1.5vh;
 }
-
+.scrollcenter{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .privacytext {
    text-align:justify;
 }
@@ -189,7 +197,7 @@ section {
    border-color: black;
 }
 .camposform {
-   margin-left: 2vw;
+   padding-left: 2vw;
    margin-top: 3vh;
    margin-bottom: 3vh;
 }
