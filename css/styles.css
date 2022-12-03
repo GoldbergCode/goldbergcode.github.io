@@ -12,8 +12,7 @@ body {
 }
 
 .cabecera {
-   border: 1px solid;
-   border-color: black;
+   border: 1px solid black;
    background-color: #02182B;
    padding-left: 1vw;
    padding-right: 1vw;
@@ -25,6 +24,36 @@ body {
    justify-content:space-between;
    
 }
+
+table {
+border:1px solid black;
+width: 90%;
+margin:5%;
+border-spacing: 0ch;
+}
+
+tr td{
+   border:1px solid black;
+   padding-left:5pt;
+   height: 50px;
+}
+
+th.titulillotabla{
+   height: 35pt;
+   padding: 5pt;
+   background-color: rgb(51, 51, 51);
+   color:#c93c4f;
+   font-size: 4ch;
+   text-transform: uppercase;
+   letter-spacing: 2ch;
+   }
+
+   .subtitulillo td{
+  background-color: #af402d;
+  height: 25pt;
+  text-align: center;
+   }
+
 
 #titulo {
    font-size: 3vw;
@@ -106,11 +135,48 @@ body {
    width: 65vw;
 }
 
+.sectionppalclases {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1vh;
+   background-color: #C9CEBD;
+   border: 1px solid;
+   border-radius: 5px;
+   width: 65vw;
+}
+
 .contenidoart {
    margin-top: 2vh;
    margin-bottom: 2vh;
    width: 62vw;
+}
+.contenidoartclases {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+   width: 62vw;
+}
 
+.clasesnav {
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding-top: 1vh;
+}
+
+.formflex {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.formimg {
+   height: 50vh;
 }
 
 .imghowto01{
@@ -157,11 +223,6 @@ body {
    padding-bottom: 2vh;
    border-radius: 5px;
    text-align: center;
-}
-
-
-.imghowto06{
-
 }
 
 .contenidoartmedia{
