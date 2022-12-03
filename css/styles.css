@@ -112,17 +112,56 @@ body {
    width: 62vw;
 
 }
+
 .imghowto01{
-   margin-top: 2vh;
    height: 30vh;
+   padding-bottom: 2vh;
    border-radius: 5px;
    text-align: center;
 }
+.imghowto02div{
+   display:flex;
+   flex-direction: row;
+}
 .imghowto02{
-   margin-top: 2vh;
-   height: 30vh;
+   padding-top: 2vh;
+   height: 40vh;
+   border-radius: 5px;
+}
+
+.imghowto03div{
+   display:flex;
+   flex-direction: row;
+   
+}
+.imghowto03 {
+   border-radius: 5px;
+   height: 40vh;
+   padding-left: 5vw;
+   padding-right: 3vw;
+}
+
+.imghowto04div{
+   display:flex;
+   flex-direction: row;
+}
+
+.imghowto04 {
+   border: 1px solid black;
+   border-radius: 5px;
+   height: 40vh;
+}
+
+.imghowto05{
+   height: 15vh;
+   padding-bottom: 2vh;
    border-radius: 5px;
    text-align: center;
+}
+
+
+.imghowto06{
+
 }
 
 .contenidoartmedia{
