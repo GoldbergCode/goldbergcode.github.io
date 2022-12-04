@@ -443,12 +443,22 @@ a:active {
    th.titulillotabla {
       font-size: 4ch;
       letter-spacing: 1ch;
+      
+   }
+   .imghowto02div {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
    }
    .imgtable {
       display:none !important; 
    }
    table, .clasescontent, .contenidoarthowto, .contenidoartppal, .sectionppal{
       width: 95vw;
+   }
+   .imghowto03 {
+
+      display:none !important;
    }
 }
 
@@ -459,16 +469,11 @@ a:active {
       padding-left: 1vw;
       padding-right: 1vw;
    }
-   .imghowto02div {
-      flex-direction: column;
-   }
+  
    .imghowto02{
       height: 30vh;
    }
-   .imghowto03 {
-
-      display:none !important;
-   }
+   
    .imghowto04div {
       flex-direction: column;
    }
