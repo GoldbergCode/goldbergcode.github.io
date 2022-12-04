@@ -127,7 +127,10 @@ body {
 .imgppal {
    height: 30vh;
 }
-
+.clasescontenttable{
+   margin-top: 2vh;
+   
+}
 .clasescontent{
    display: flex;
    margin-top: 2vh;
@@ -135,23 +138,26 @@ body {
 }
 
 table {
-   display: flex;
+  
    border:1px solid black;
    background-color: #C9CEBD;
    border-spacing: 0ch;
    font-family: 'Montserrat', sans-serif;
-   overflow-x: auto;
    border-collapse: collapse;
    border-spacing: 0;
-   width: 100%;
+   width: 65vw;
  
    }
    
-tr td {
+tr, td {
       border:1px solid black;
       padding-top: 0.5vh;
       height: 5vh;
+      width: fit-content;
       text-align: center;
+}
+td {
+   width:10vw;
 }
    
 th.titulillotabla {
@@ -321,6 +327,8 @@ iframe {
    visibility: hidden;
    color: black;
    text-decoration: none;
+   right: 20vw;
+   bottom: 10vh;
 }
    
 .thumbnail span img{ /*CSS para la imagen agrandada */
@@ -380,8 +388,6 @@ footer {
    
 }
 
-
-
 a:link {
    color: black;
    font-weight: bold;
@@ -408,9 +414,6 @@ a:active {
 }
 
 @media screen and (max-width: 1919px) {
-   .cabecera {
-      background-color: aqua; 
-   }
    .artright, .sectionright{
       display:none !important;
    }
@@ -437,17 +440,22 @@ a:active {
       width: 15vw;
 
    }
-
-   
+   th.titulillotabla {
+      font-size: 4ch;
+      letter-spacing: 1ch;
+   }
+   .imgtable {
+      display:none !important; 
+   }
+   table, .clasescontent, .contenidoarthowto, .contenidoartppal, .sectionppal{
+      width: 95vw;
+   }
 }
 
 @media screen and (max-width: 720px) {
-  
-
-   .cabecera {
-      background-color: green;
-   }
    .howtopad {
+      display:flex;
+      flex-direction: column;
       padding-left: 1vw;
       padding-right: 1vw;
    }
@@ -472,12 +480,17 @@ a:active {
    .imghowto05{
       height: 7vh;
    }
+   table, .clasescontent, .contenidoarthowto, .contenidoartppal, .sectionppal{
+      width: 90vw;
+   }
+   span {
+      display:none;
+   }
 }
 
 @media screen and (max-width: 480px) {
    .cabecera {
       flex-direction: column;
-      background-color: red;
    }
    #titulo, #logo {
       font-size: 27px;
@@ -486,9 +499,9 @@ a:active {
    .cajaboton,.navegacion,.boton,.bloque1 {
       flex-direction: column;
    }
-
-   .contenidoarthowto, .contenidoartppal, .sectionppal,.cajaboton,.navegacion,.boton {
+   .cajaboton,.navegacion,.boton {
       width: 90vw;
+   
    }
 }
 
