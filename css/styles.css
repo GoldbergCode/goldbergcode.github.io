@@ -5,11 +5,7 @@
 
 body {
    background-color: #b0b0b0;
-   display:flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   
+  
 }
 
 .cabecera {
@@ -20,14 +16,13 @@ body {
    align-items: center;
    display: flex;
    flex-direction: row;
-   justify-content:space-between;
-   width: 100vw;
+   justify-content:space-around;
    
    
 }
 
 #titulo {
-   padding-left: 1vw;
+  
    font-size: 3vw;
    font-family: 'Kanit', sans-serif;
    text-align: center;
@@ -37,8 +32,7 @@ body {
 #logo {
    display: flex;
    flex-direction: column;
-   width: 30%;
-   padding-right: 1vw;
+   width: 30vw;
 }
 
 
@@ -47,7 +41,7 @@ body {
    display:flex;
    justify-content:space-around;
    flex-direction: row;
-   width: 100vw;
+   
   
    
 }
@@ -96,7 +90,14 @@ body {
    
 }
 
-.sectionppalhowto {
+.contenidoart {
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+   
+}
+
+
+.contenidoarthowto {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -107,18 +108,10 @@ body {
    border-radius: 5px;
    width: 65vw;
 }
-
-
-
-.contenidoart {
-   margin-top: 2vh;
-   margin-bottom: 2vh;
-   width: 62vw;
+.howtopad {
+   padding-left: 3vw;
+   padding-right: 3vw;
 }
-
-
-
-
 
 .contenidoartppal {
    margin-top: 2vh;
@@ -199,16 +192,20 @@ th.titulillotabla {
 
 .imghowto01{
    height: 30vh;
-   padding-bottom: 2vh;
+   padding-top: 2vh;
+   margin-bottom: 5vh;
    border-radius: 5px;
    text-align: center;
 }
 .imghowto02div{
+   padding-top: 2vh;
    display:flex;
    flex-direction: row;
+   margin-bottom: 5vh;
 }
 .imghowto02{
    padding-top: 2vh;
+   padding-left: 1vw;
    height: 40vh;
    border-radius: 5px;
 }
@@ -216,6 +213,7 @@ th.titulillotabla {
 .imghowto03div{
    display:flex;
    flex-direction: row;
+   margin-bottom: 3vh;
    
 }
 .imghowto03 {
@@ -226,8 +224,10 @@ th.titulillotabla {
 }
 
 .imghowto04div{
+   margin-top: 3vh;
    display:flex;
    flex-direction: row;
+   margin-bottom: 3vh;
 }
 
 .imghowto04 {
@@ -238,11 +238,18 @@ th.titulillotabla {
 
 .imghowto05{
    height: 15vh;
-   padding-bottom: 2vh;
+   padding-top: 2vh;
+   padding-bottom: 5vh;
    border-radius: 5px;
    text-align: center;
 }
 
+.contenidoartppal{
+   padding-bottom: 1vw;
+   padding-left: 1vw;
+   padding-right: 1vw;
+   padding-top: 1vw;
+}
 .contenidoartmedia{
    width: 62vw;
    display: flex;
@@ -272,6 +279,12 @@ th.titulillotabla {
    background-color: #C9CEBD;
    border: 1px solid;
    border-radius: 5px;
+}
+
+iframe {
+   padding-top: 1vh; 
+   padding-bottom: 1vh;
+  
 }
 
 .scroll {
@@ -328,13 +341,9 @@ th.titulillotabla {
    font-family: 'Sono', sans-serif;
    font-size: 16px;
    text-justify: auto;
-   padding-bottom: 1vw;
-   padding-left: 1vw;
-   padding-right: 1vw;
-   padding-top: 1vw;
+ 
 }
 .camposform {
-   padding-left: 2vw;
    margin-top: 3vh;
    margin-bottom: 3vh;
 }
@@ -370,15 +379,10 @@ footer {
    display:flex;
    justify-content:center;
    flex-direction: row;
-   width:90vw;
+   
 }
 
-iframe {
-   padding-top: 1vh; 
-   padding-bottom: 1vh;
-   padding-right: 1vw;
-   padding-left: 1vw;
-}
+
 
 a:link {
    color: black;
@@ -409,31 +413,72 @@ a:active {
    .cabecera {
       background-color: aqua; 
    }
-   .artright{
-      visibility: hidden;
-   }
-   .bloque1 {
-      width: 100vw;
-   }
-
-@media screen and (max-width: 720px) {
-   .cabecera {
-      background-color: green;
-      
+   .artright, .sectionright{
+      display:none !important;
    }
    .bloque1 {
       flex-direction: column;
-      justify-content: space-between;
-      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      
    }
+   .formflex {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+   }
+
    .contenidoartppal, .sectionppal {
-      width: 99vw;
+      width: 97vw;
+      
    }
-   .cajaboton,.navegacion,.boton {
+   
+   .cajaboton,.navegacion,.boton{
       flex-direction: row;
-      text-align: center;
-      width: 19.5vw;
+      justify-content: center;
+      width: 15vw;
+
    }
+
+   
+}
+
+@media screen and (max-width: 720px) {
+  
+
+   .cabecera {
+      background-color: green;
+   }
+   .howtopad {
+      padding-left: 1vw;
+      padding-right: 1vw;
+   }
+
+   .imghowto02div {
+      flex-direction: column;
+   }
+   .imghowto02{
+      height: 30vh;
+   }
+   
+   
+   .imghowto03 {
+
+      display:none !important;
+   }
+   
+   .imghowto04div {
+      flex-direction: column;
+   }
+   
+   .imghowto04 {
+      display:none !important;
+   }
+   
+   .imghowto05{
+      height: 7vh;
+   }
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -449,8 +494,14 @@ a:active {
       flex-direction: column;
    }
 
-   .contenidoartppal, .sectionppal,.cajaboton,.navegacion,.boton {
-      width: 99vw;
+   .contenidoarthowto, .contenidoartppal, .sectionppal,.cajaboton,.navegacion,.boton {
+      width: 90vw;
    }
 }
+
+
+
+
+
+
 
