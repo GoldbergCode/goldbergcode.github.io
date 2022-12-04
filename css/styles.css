@@ -9,13 +9,12 @@ body {
    align-items: center;
    justify-content: center;
    flex-direction: column;
+   
 }
 
 .cabecera {
-   border: 1px solid black;
+   
    background-color: #02182B;
-   padding-left: 1vw;
-   padding-right: 1vw;
    padding-top: 1vh;
    padding-bottom: 1vh;
    align-items: center;
@@ -23,11 +22,12 @@ body {
    flex-direction: row;
    justify-content:space-between;
    
+   
 }
 
 #titulo {
+   padding-left: 1vw;
    font-size: 3vw;
-   margin-left: 5vw;
    font-family: 'Kanit', sans-serif;
    text-align: center;
    color: #D7263D;
@@ -37,6 +37,7 @@ body {
    display: flex;
    flex-direction: column;
    width: 30%;
+   padding-right: 1vw;
 }
 
 
@@ -46,6 +47,7 @@ body {
    justify-content:space-around;
    flex-direction: row;
    width: 100vw;
+  
    
 }
 
@@ -105,17 +107,7 @@ body {
    width: 65vw;
 }
 
-.sectionppalclases {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   margin-top: 1vh;
-   background-color: #C9CEBD;
-   border: 1px solid;
-   border-radius: 5px;
-   width: 65vw;
-}
+
 
 .contenidoart {
    margin-top: 2vh;
@@ -123,19 +115,14 @@ body {
    width: 62vw;
 }
 
-.contenidoartclases {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   margin-top: 2vh;
-   margin-bottom: 2vh;
-   width: 62vw;
-}
+
+
+
 
 .contenidoartppal {
    margin-top: 2vh;
    margin-bottom: 2vh;
-   width: 62vw;
+   
 }
 .flexppal{
    display: flex;
@@ -147,10 +134,22 @@ body {
    height: 30vh;
 }
 
+.clasescontent{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1vh;
+   background-color: #C9CEBD;
+   border: 1px solid;
+   border-radius: 5px;
+   width: 65vw;
+}
+
 table {
    border:1px solid black;
-   width: 90%;
-   margin:5%;
+   margin-top: 1vh;
+   margin-bottom: 1vh;
    border-spacing: 0ch;
    font-family: 'Montserrat', sans-serif;
    }
@@ -163,8 +162,8 @@ tr td {
 }
    
 th.titulillotabla {
-      height: 35pt;
-      padding: 5pt;
+      
+      
       background-color: rgb(51, 51, 51);
       color:#c93c4f;
       font-size: 4ch;
@@ -185,6 +184,7 @@ th.titulillotabla {
    padding-bottom: 0.5vh;
    width: 30vw;
 }
+
 
 .formflex {
    display: flex;
@@ -259,7 +259,8 @@ th.titulillotabla {
 
 }
 
-.sectionright {
+
+.artright {
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -270,12 +271,6 @@ th.titulillotabla {
    background-color: #C9CEBD;
    border: 1px solid;
    border-radius: 5px;
-}
-.artright {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
 }
 
 .scroll {
@@ -378,7 +373,6 @@ footer {
 }
 
 iframe {
-   display: flex;
    padding-top: 1vh; 
    padding-bottom: 1vh;
    padding-right: 1vw;
@@ -410,4 +404,52 @@ a:active {
    text-decoration: none;
 }
 
+@media screen and (max-width: 1919px) {
+   .cabecera {
+      background-color: aqua; 
+   }
+   .artright{
+      visibility: hidden;
+   }
+   .bloque1 {
+      width: 94vw;
+   }
+
+@media screen and (max-width: 720px) {
+   .cabecera {
+      background-color: green;
+      
+   }
+   .bloque1 {
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100vw;
+   }
+   .contenidoartppal, .sectionppal {
+      width: 99vw;
+   }
+   .cajaboton,.navegacion,.boton {
+      flex-direction: row;
+      text-align: center;
+      width: 19.5vw;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .cabecera {
+      flex-direction: column;
+      background-color: red;
+   }
+   #titulo, #logo {
+      font-size: 27px;
+      width: 60vw;
+   }
+   .cajaboton,.navegacion,.boton,.bloque1 {
+      flex-direction: column;
+   }
+
+   .contenidoartppal, .sectionppal,.cajaboton,.navegacion,.boton {
+      width: 99vw;
+   }
+}
 
